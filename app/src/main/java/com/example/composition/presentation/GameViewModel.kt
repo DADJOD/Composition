@@ -16,6 +16,7 @@ import com.example.composition.domain.usecases.GenerateQuestionUseCase
 import com.example.composition.domain.usecases.GetGameSettingsUseCase
 
 class GameViewModel(application: Application) : AndroidViewModel(application) {
+
     private lateinit var gameSettings: GameSettings
     private lateinit var level: Level
 
